@@ -1,12 +1,11 @@
-const Renderer = require("./lib/renderer.js");
+const validateColor = require("validate-color").default;
 
-const test = {
-  logoText: "dat",
-  textColor: "yellow",
-  logoShape: "Circle",
-  bodyColor: "blue",
+console.log(validateColor('reaad'));
+const colorValidate = (input) => {
+  if (input == "") return false;
+  let style = new Option().style;
+  style[color] = input;
+  return style[color] !== "";
 };
 
-const renderer = new Renderer(test);
-console.log(renderer);
-renderer.render();
+// console.log(colorValidate("yellow"));
