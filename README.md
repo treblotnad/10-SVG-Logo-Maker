@@ -18,7 +18,9 @@ Command-line app that creates an SVG with 1-3 Characters within a circle, square
 
 ## Installation
 
-Install
+Clone Github, and run:
+npm i
+Requires node.js@18+
 
 ## Usage
 
@@ -28,8 +30,6 @@ Use it
 
 Inquirer validation solution taken from:
 https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation
-and
-https://stackoverflow.com/questions/48484767/javascript-check-if-string-is-valid-css-color
 
 Color validation provided from:
 https://github.com/dreamyguy/validate-color?tab=MIT-1-ov-file under MIT license
@@ -40,7 +40,7 @@ N/A
 
 ## Tests
 
-npx jest within lib folder
+npx jest to run tests for shape classes, checking for correct XML SVG output.
 Tests exist to verify output from 3 shape constructor classes.
 
 ## Questions
