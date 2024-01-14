@@ -24,7 +24,7 @@ Requires node.js@18+
 
 ## Usage
 
-Use it
+[Usage Video](./Video/DTolbert%20SVG%20Logo%20Walkthrough%20Video.webm)
 
 ## Credits
 
